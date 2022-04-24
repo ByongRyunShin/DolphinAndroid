@@ -5,7 +5,6 @@ import android.animation.AnimatorListenerAdapter
 import android.os.Bundle
 import android.view.View
 import android.webkit.*
-import android.widget.RelativeLayout
 import androidx.appcompat.app.AppCompatActivity
 import com.gnbsoftec.dolphinnative.databinding.ActivityMainBinding
 
@@ -16,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.root)
+
         init(binding)
         
     }

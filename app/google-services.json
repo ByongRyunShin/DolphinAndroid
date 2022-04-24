@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "49658940882",
+    "project_id": "dolphin-fcm",
+    "storage_bucket": "dolphin-fcm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49658940882:android:94c5cdc1c0f4b3eac48c0b",
+        "android_client_info": {
+          "package_name": "com.gnbsoftec.dolphinnative"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "49658940882-c8c9rmhvqan8933fof9tequ6773khn0i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gnbsoftec.dolphinnative",
+            "certificate_hash": "02c53de0ffeabf92e6d74978b3092bda32c697b1"
+          }
+        },
+        {
+          "client_id": "49658940882-dme0d51hq5lhq4a2ffvledimhhpppap0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ-ojrbiLf2LKF6qf2m8LwpQMQs0Mgu_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "49658940882-dme0d51hq5lhq4a2ffvledimhhpppap0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

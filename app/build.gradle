@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId "com.gnbsoftec.dolphinnative"
-        minSdkVersion 16
+        minSdkVersion 19
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -34,6 +34,7 @@ android {
         viewBinding = true
     }
 }
+apply plugin: 'com.google.gms.google-services'
 
 dependencies {
 
@@ -45,4 +46,8 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    implementation platform('com.google.firebase:firebase-bom:29.3.1')
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+    implementation 'com.google.firebase:firebase-messaging-ktx'
 }
